@@ -1,0 +1,91 @@
+QWidget {
+  background-color: #000000;
+}
+QLabel {
+  color: #e6e6e6;
+  font-weight: 600;
+}
+
+QLabel#round_image {
+  background-image: url("./res/eva.png");
+  border-radius: 100%;
+  background-position: center center;
+}
+
+QLabel#cr_acc {
+  background-image: url("./res/create_acc.jpg");
+  border-radius: 100%;
+  background-position: center ;
+}
+
+QLabel#main_wig {
+  background-image: url("./res/kotik.png");
+  border-radius: 10%;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+
+
+QLabel#heading {
+  color: #e6e6e6;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+QLabel#subheading {
+  color: #e6e6e6;
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+QLineEdit {
+  color: #e6e6e6;
+  border-radius: 8px;
+  border: 1px solid #e0e4e7;
+  padding: 5px 15px;
+}
+
+QLineEdit:focus {
+  border: 1px solid #d0e3ff;
+}
+
+QLineEdit::placeholder {
+  color: #767e89;
+}
+QPushButton {
+  background-color: #0d6efd;
+  color: #e6e6e6;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1px solid #0d6efd;
+  padding: 5px 15px;
+  margin-top: 10px;
+  outline: 0px;
+}
+QPushButton:hover,
+QPushButton:focus {
+  background-color: #0b5ed7;
+  border: 3px solid #9ac3fe;
+}
+
+
+QSlider::groove:horizontal {
+    border-radius: 1px;
+    height: 7px;
+    margin: -1px 0;
+}
+QSlider::handle:horizontal {
+    background-color: #EEE;
+    border: 1px solid #EEE;
+    height: 0px;
+    width: 12px;
+    margin: -4px 0;
+    border-radius: 7px  ;
+    padding: -4px 0px;
+}
+QSlider::add-page:horizontal {
+    background: darkgray;
+}
+QSlider::sub-page:horizontal {
+    background: white;
+}
