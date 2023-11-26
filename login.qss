@@ -89,3 +89,9 @@ QSlider::add-page:horizontal {
 QSlider::sub-page:horizontal {
     background: white;
 }
+QLabel#sub {
+  color: #e6e6e6;
+  font-size: 25px;
+  font-weight: normal;
+  margin-bottom: 25px;
+}
